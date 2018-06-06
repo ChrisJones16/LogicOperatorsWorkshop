@@ -35,6 +35,47 @@ public class Main {
     }
     //will run because the NOT operator makes both of our conditions are true
 
+    if(a < b) {
+            System.out.println("a < b");
+    }
+        //will run because variable a has a lower value than variable b
+
+    if(a <= b) {
+	    System.out.println("a <= b");
+    }
+        //will run because the comparison is true
+
+    if(a > y) {
+	    System.out.println("i run");
+     }
+
+     if(x >= a) {
+	    System.out.println("x >= a");
+     }
+
+     if(x == y) {
+	    System.out.println("this clearly won't work");
+     }
+     // won't run because x=6 does not equal y=1
+
+     int number = 6;
+
+	if(x == number) {
+	    System.out.println("this should run");
+    }
+    //will run because x=6 and the variable number=6
+
+
+     if(x != 1) {
+	    System.out.println("this works");
+     }
+
+
+
+
+
+
+
 
 
 
